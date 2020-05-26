@@ -5,7 +5,7 @@ import User from './components/User';
 
 interface IUser {
   name: string;
-  email: string;
+  email?: string;
 }
 
 function App() {
